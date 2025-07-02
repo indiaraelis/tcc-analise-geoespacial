@@ -1,8 +1,6 @@
 # tcc-analise-geoespacial
 ANÁLISE GEOESPACIAL DAS INSATISFAÇÕES DOS CONSUMIDORES DA CASAN NOS BAIRROS CAMPECHE E RIO TAVARES - FLORIANÓPOLIS
 
-Entendido\! Com base na sua explicação detalhada do notebook e na sua intenção de subir o código para o GitHub, vou criar um `README.md` completo e "lindão" que você pode usar. Ele incluirá uma introdução, como rodar o código, uma descrição detalhada de cada célula (como você fez), e as conclusões do processo.
-
 -----
 
 ```markdown
