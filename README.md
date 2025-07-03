@@ -1,9 +1,6 @@
 # tcc-analise-geoespacial
 ANÁLISE GEOESPACIAL DAS INSATISFAÇÕES DOS CONSUMIDORES DA CASAN NOS BAIRROS CAMPECHE E RIO TAVARES - FLORIANÓPOLIS
 
------
-
-```markdown
 # Análise e Agrupamento de Motivos de Insatisfação - CASAN (TCC)
 
 Este repositório contém o script Python desenvolvido no Google Colab para o pré-processamento, análise e agrupamento de dados de manifestações de insatisfação da CASAN, especificamente para os bairros Campeche e Rio Tavares, em Florianópolis/SC (período de 2021-2022). O objetivo central é transformar dados textuais brutos em categorias significativas para análise espacial no contexto de um Trabalho de Conclusão de Curso (TCC).
@@ -122,5 +119,3 @@ Esta seção conclui o processo de agrupamento, utilizando uma lista predefinida
 ### **Considerações Finais sobre o Processo de Agrupamento**
 
 As células posteriores à seção final no PDF (`Processamento de dados planilha CASAN - Colab.pdf`, a partir da página 10) demonstram tentativas de implementar um agrupamento mais complexo, onde um motivo poderia pertencer a múltiplos grupos (utilizando listas na coluna 'Grupo'). No entanto, essas abordagens resultaram em `TypeError` devido a incompatibilidades de tipo de dados. A última seção presente no PDF é um exemplo de como inicializar um DataFrame com listas vazias na coluna 'Grupo', servindo como uma demonstração da abordagem teórica para múltiplos agrupamentos. O método final adotado para o TCC focou na atribuição de um único grupo principal por motivo, baseado na detecção das palavras-chave mais relevantes.
-
----
