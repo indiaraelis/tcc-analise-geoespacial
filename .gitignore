@@ -1,0 +1,22 @@
+# Arquivos e diretórios gerados pelo Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Arquivos de dados temporários ou grandes que não devem ser versionados
+*.xlsx # Se você não quiser que o seu Excel original vá para o GitHub
+*.csv  # Se houver outros CSVs temporários
+
+# Logs
+*.log
+
+# Arquivos de sistema operacional (Mac/Windows)
+.DS_Store
+Thumbs.db
